@@ -1,6 +1,6 @@
-# Bellscriptions
+# Craftcriptions
 
-A minter and protocol for inscriptions on Bells. 
+A minter and protocol for inscriptions on Craftcoin. 
 
 ## Setup
 
@@ -101,7 +101,7 @@ http://localhost:3000/tx/15f3b73df7e5c072becb1d84191843ba080734805addfccb6509297
 
 ## Protocol
 
-The bellscriptions protocol allows any size data to be inscribed onto subwoofers.
+The craftcriptions protocol allows any size data to be inscribed onto subwoofers.
 
 An inscription is defined as a series of push datas:
 
@@ -113,7 +113,7 @@ OP_0
 "Woof!"
 ```
 
-For bellscriptions, we introduce a couple extensions. First, content may spread across multiple parts:
+For craftcriptions, we introduce a couple extensions. First, content may spread across multiple parts:
 
 ```
 "ord"
